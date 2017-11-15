@@ -1,0 +1,3 @@
+akismet
+better-wp-security
+wordpress-seo

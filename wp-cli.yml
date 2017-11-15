@@ -1,0 +1,24 @@
+core download:
+  # Force FR download
+  locale: fr_FR
+  force: true
+
+config create:
+  dbhost: host
+  dbname: db_name
+  dbprefix: dbprefix_
+  dbuser: db_user
+  dbpass: pass
+
+core install:
+  url:            my_site.com
+  title:          My site
+  admin_user:     your_user
+  admin_password: pass
+  admin_email:    email@email.com
+  # To avoid mail sending with user infos
+  skip-email:     true
+
+# Necessary for permalinks rewrite
+apache_modules:
+  - mod_rewrite
